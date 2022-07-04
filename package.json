@@ -1,0 +1,36 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Application for storing books you've read and want to read in a list view",
+  "main": "server.js",
+  "scripts": {
+    "test": "test server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcheering/Library.git"
+  },
+  "keywords": [
+    "koa",
+    "bootstrap",
+    "full",
+    "stack",
+    "mongodb",
+    "middleware",
+    "express",
+    "alternative"
+  ],
+  "author": "Matthew C. Heering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcheering/Library/issues"
+  },
+  "homepage": "https://github.com/mcheering/Library#readme",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-ejs": "^4.3.0",
+    "mongoose": "^6.4.2"
+  }
+}
